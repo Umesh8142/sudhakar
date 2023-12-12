@@ -1,68 +1,113 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    background-color: rgb(0, 0, 0);
-    color: rgb(215, 244, 46);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 100px;
-    gap: 20px;
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(215, 244, 46);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  gap: 20px;
+}
+.menu {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  gap: 20px;
+}
+.aboutme img {
+  width: 200px;
+  border-radius: 50%;
+}
+.aboutme #img-a {
+  margin-bottom: 60px;
+  width: 200px;
+  height: 200px;
+}
+.aboutme p {
+  font-size: 22px;
+  font-weight: 500;
+  width: 80vw;
+}
 
+.qualifications {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-.menu{
-    display: flex;
-    justify-content: space-around;
-    width: 700px;
-    
+.qualifications table {
+  width: 80vw;
+  text-align: center;
+  font-size: 22px;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+.qualifications > table > tr > td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-.aboutme{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-    gap: 20px;
+#skills {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.aboutme img{
-   width: 200px; 
+#skills > table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.aboutme #img-a{
-    margin-bottom: 60px;
-   width: 200px;
-   height: 200px;
-   background-color: red;
-   border-radius: 50% ;
- }
-.aboutme p{
-    font-size: 22px;
-    font-weight: 500;
-    width:1800px
+#skills > table > tr > td {
+  font-size: 22px;
+  padding: 10px;
 }
 
-.qualifications{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+#contacts {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
-.qualifications table{
-    width: 800px;
-    text-align: center;
-    font-size: 22px;
-    border: 1px solid black;
-    border-collapse: collapse;
+#icons {
+  display: flex;
+  width: 80vw;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-around;
 }
-.qualifications>table>tr>td{
-    border: 1px solid black;
-    border-collapse: collapse;
+#projects{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#projects p{
+  margin: ;
+  width: 80vw;
+  font-size: 20px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Qualifications=()=>{
     return (
-        <div className="qualifications">
+        <div className="qualifications" id="qualifications">
             <h1> Qualifiactions</h1>
         <table>
             <tr><td>Degree</td><td>Institute</td><td>Grade</td></tr>
